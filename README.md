@@ -3,7 +3,8 @@
 - 개발환경
   - OS: Windows 10
   - IDE: VSCode
-  - Language: Python, numpy, pandas, sklearn
+  - Language: Python, Numpy, Pandas, Sklearn
+  - Additional Tools: Matplotlib, Seaborn, Git
   - 
 - 프로젝트 목적
   - 카카오, 네이버 , 토스 등 금융 사업에 뛰어드는 플랫폼 증가
@@ -14,23 +15,41 @@
   - **이를바탕으로 기존 휴면 고객의 이탈을 방지할 수 있도록 이탈 예측 모델을 구축 해보려고 한다.**
 
 
-## 기능
-- 회원가입, 로그인, 로그아웃, 회원정보수정
-- 구매, 댓글, 찜 목록
-- 판매물건 조회
-
-## UI
-1. 메인
-![01](oeMarket/ui/1.png)<br/><br/>
-2. 회원가입
-![02](oeMarket/ui/2.png)<br/><br/>
-3. 상품등록(글 작성)
-![05](oeMarket/ui/3.png)<br/><br/>
-4. 판매글 목록 
-![03](oeMarket/ui/4.png)<br/><br/>
-5. 내용보기
-![04](oeMarket/ui/5.png)<br/><br/>
-6. 회원정보 수정 
-![06](oeMarket/ui/6.png)<br/><br/>
-7. 찜 목록 조회
-![07](oeMarket/ui/7.png)<br/><br/>
+1. 데이터 탐색
+   - 1차 변수 선정
+      - 불필요한 컬럼 드롭
+      - 컬럼명/순서 변경
+    - EDA
+      - 데이터 시각화
+      - 기본 정보 확인
+<br/>![01](oeMarket/ui/1.png)<br/><br/>
+2. 데이터 전처리
+   - 기초 전처리
+     - 결측치 없음
+     - 이상치 없음
+   - 모델링 준비
+     - 변수 인코딩
+     - Train/Test 분리
+     - 데이터 스케일링
+3. 모델 학습
+    - Feature Selection
+      - RFECV을 이용
+    - 파라미터 튜닝
+      - Grid Search CV
+      - 베이지안 최적화
+    - Over Sampling
+4. 성과 평가
+    - 사용 알고리즘
+      - 로지스틱 회귀
+      - 랜덤 포레스트
+      - KNN
+      - XGBoost
+    - 모델 평가 지표 비교
+5. 모델 학습
+    - 변수의 영향력 확인
+      - Feature
+        - Importance
+      - SHAP Value
+6. 프로젝트 결론
+    - 분석 의의
+    - 분석 한계점
