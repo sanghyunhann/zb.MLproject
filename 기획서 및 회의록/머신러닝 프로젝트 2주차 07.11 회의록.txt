@@ -1,0 +1,21 @@
+정연님과 승민님이 알려주신 링크
+jeongyeon han오후 2:00
+https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m
+
+Seungmin Kim오후 2:14
+https://www.kaggle.com/code/shawkyelgendy/credit-card-cs-eda-and-ml-100-score
+
+Seungmin Kim오후 2:31
+https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers?select=BankChurners.csv
+------------------------------------------------------------------------------------------------------------------
+
+회의 결과
+
+EDA 결과, 데이터 셋이 비적합하다고 판단 내림
+
+카드 고객 이탈 확인으로 주제 변경 및 데이터 셋 변경으로 결정
+
+
+내일 오후 2시
+- 컬럼에 대해서 논의 
+- 분석할 컬럼 나누기

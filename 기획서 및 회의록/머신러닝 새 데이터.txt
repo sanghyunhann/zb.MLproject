@@ -1,0 +1,5 @@
+https://www.kaggle.com/datasets/thedevastator/predicting-credit-card-customer-attrition-with-m
+Seungmin Kim오후 2:14
+https://www.kaggle.com/code/shawkyelgendy/credit-card-cs-eda-and-ml-100-score
+Seungmin Kim오후 2:31
+https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers?select=BankChurners.csv
