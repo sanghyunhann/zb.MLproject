@@ -4,7 +4,7 @@
   - OS: Windows 10
   - IDE: VSCode
   - Language: Python, Numpy, Pandas, Sklearn
-  - Additional Tools: Matplotlib, Seaborn, Git
+  - Additional Tools: Matplotlib, Seaborn, Github
   - 
 - 프로젝트 목적
   - 카카오, 네이버 , 토스 등 금융 사업에 뛰어드는 플랫폼 증가
